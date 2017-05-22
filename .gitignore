@@ -1,3 +1,18 @@
+# these don't need to be tracked
 config
 *.log
+
+# virtualenv
 gleonv/
+mdlenv/
+
+# OSX
+.DS_STORE
+
+# ignore Resources (mostly training data)
+*.png
+*.jpg
+*.jpeg
+
+# training results
+maps_train/
